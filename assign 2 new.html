@@ -1,0 +1,31 @@
+<html>
+
+<script>
+var x = (8+1/3) / 55;
+function myFunction()
+{
+var y,z;
+z = document.getElementById('DriverSpeed').value;
+y = (8+1/3) / z; 
+document.getElementById('timeSaved').innerHTML = x-y;
+
+return x-y;
+}
+
+</script>
+<h1> Assignment 2</h1>
+
+<body>
+
+How fast would you drive? <br>
+<input type="number" id="DriverSpeed">
+<br>
+<input type="button" onclick = "myFunction()" = z" value="click me">
+
+<hr>
+<p> Hours Saved </p>
+<p id="timeSaved"> hi </p>
+
+
+</body>
+</html>
